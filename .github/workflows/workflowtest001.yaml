@@ -5,8 +5,8 @@ jobs:
   start:
     runs-on: ubuntu-latest
     steps:
-      -name: test001
-       run: |
+      - name: test001
+        run: |
             echo "test01"
             echo "test02"
             
